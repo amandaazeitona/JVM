@@ -21,4 +21,3 @@ Build java main object:
 ```sh
 make javalang
 ```
-# JVM-SB
