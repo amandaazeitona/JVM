@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['main_346',['main',['../main_8c.html#a700a0caa5b70a06d1064e576f9f3cf65',1,'main.c']]],
+  ['main_2ec_347',['main.c',['../main_8c.html',1,'']]],
+  ['main_5fclass_5fresolution_5ffailed_348',['MAIN_CLASS_RESOLUTION_FAILED',['../jvm_8h.html#abad1904c8b048ae4ecff9d7015cc2a56ac366b2dfcda3439d1aeafa7f96ee5f45',1,'jvm.h']]],
+  ['main_5fmethod_5fnot_5ffound_349',['MAIN_METHOD_NOT_FOUND',['../jvm_8h.html#abad1904c8b048ae4ecff9d7015cc2a56a697f2a151da1655325c904cae48c50ff',1,'jvm.h']]],
+  ['major_5fversion_350',['major_version',['../structjava__class.html#a270c0b081d256b6f01aeecca2754dfc9',1,'java_class']]],
+  ['max_5flocals_351',['max_locals',['../structattr__code__info.html#af773303ac5e313b24a1615994b6947af',1,'attr_code_info']]],
+  ['max_5fstack_352',['max_stack',['../structattr__code__info.html#a06b442439568a2eeff783e2d0dfc1d36',1,'attr_code_info']]],
+  ['mem_5falloc_5ffailed_353',['MEM_ALLOC_FAILED',['../javaclass_8h.html#ad7cf29a45afb8b75fb28852acfa8e21da321ede0521b2a2ea03d4aded5e2a5953',1,'javaclass.h']]],
+  ['method_5faccess_5ftype_354',['METHOD_ACCESS_TYPE',['../javaclass_8h.html#a4ef923e15f9bed2a2982b19bf9b0eb37a2ee3ace90ba4d638a96d9fdb5c7e3151',1,'javaclass.h']]],
+  ['method_5fcount_355',['method_count',['../structjava__class.html#a33b6e92418028d3425505f08e766731b',1,'java_class']]],
+  ['method_5fentries_5fread_356',['method_entries_read',['../structjava__class.html#a0e5bd31f4451900b9763e7f0adc151c6',1,'java_class']]],
+  ['method_5fhandler_357',['method_handler',['../jvm_8c.html#a6d190030edec2a116507b6574412d58c',1,'method_handler(interpreter_module *virtual_machine, java_class *jc, constant_pool_info *cp_method, loaded_classes **output_class):&#160;jvm.c'],['../jvm_8h.html#aee68b037eff99b8b4dea3a62e57153e9',1,'method_handler(interpreter_module *, java_class *, constant_pool_info *, loaded_classes **):&#160;jvm.c']]],
+  ['method_5finfo_358',['method_info',['../structmethod__info.html',1,'method_info'],['../methods_8h.html#a8bb5945393748ebec11db13dc8993aa4',1,'method_info():&#160;methods.h']]],
+  ['method_5fname_5fidx_5fis_5fvalid_359',['method_name_idx_is_valid',['../validity_8c.html#af0741640d9678fe00778175e44a8be23',1,'method_name_idx_is_valid(java_class *jc, uint16_t name_index):&#160;validity.c'],['../validity_8h.html#aeace6009184b88e1c2c844f8de6b526d',1,'method_name_idx_is_valid(java_class *, uint16_t):&#160;validity.c']]],
+  ['method_5fresolution_5ffailed_360',['METHOD_RESOLUTION_FAILED',['../jvm_8h.html#abad1904c8b048ae4ecff9d7015cc2a56a312db9b2e6ade7852fdaafb55f42cfa1',1,'jvm.h']]],
+  ['methodhandle_5fconst_361',['METHODHANDLE_CONST',['../constantpool_8h.html#ac957440c1cd5c40325e005759cad316fa5952498f82feaff27799158654da2ae0',1,'constantpool.h']]],
+  ['methodref_362',['Methodref',['../structconstant__pool__info.html#ab5f022794b0d9a80ea97796dabc866fc',1,'constant_pool_info']]],
+  ['methodref_5fconst_363',['METHODREF_CONST',['../constantpool_8h.html#ac957440c1cd5c40325e005759cad316fa823b57667849f70333b626ea706e3581',1,'constantpool.h']]],
+  ['methods_364',['methods',['../structjava__class.html#af0fc99630af87d96f99637f77f6bb565',1,'java_class']]],
+  ['methods_2ec_365',['methods.c',['../methods_8c.html',1,'']]],
+  ['methods_2eh_366',['methods.h',['../methods_8h.html',1,'']]],
+  ['methods_5fprint_367',['methods_print',['../methods_8c.html#ada37b868b5baefc163f1c2e03e855321',1,'methods_print(java_class *jc):&#160;methods.c'],['../methods_8h.html#ad42d3d726857f133bcb8f111d17aca5b',1,'methods_print(java_class *):&#160;methods.c']]],
+  ['methodtype_5fconst_368',['METHODTYPE_CONST',['../constantpool_8h.html#ac957440c1cd5c40325e005759cad316fa1f739cb284807bcda92e4d9abf9dcabb',1,'constantpool.h']]],
+  ['minor_5fversion_369',['minor_version',['../structjava__class.html#a2f11475c3693e38375dc32a06a4ec8bd',1,'java_class']]]
+];

@@ -1,0 +1,991 @@
+﻿---- General Information ----
+
+Version:		52.0 (Major.minor) [jdk version 1.8]
+Constant pool count:	118
+Access flags:		0x0021 [super, public]
+This class:		cp index #42 <examples/LongCode>
+Super class:		cp index #43 <java/lang/Object>
+Interfaces count:	2
+Fields count:		6
+Methods count:		5
+Attributes count:	2
+
+---- Constant Pool ----
+
+	#1: Methodref
+		class_index: #43 <java/lang/Object>
+		name_and_type_index: #83
+		name_and_type.name_index: #65 <<init>>
+		name_and_type.descriptor_index: #66 <()V>
+
+	#2: Class
+		name_index: #84 <[[I>
+
+	#3: Class
+		name_index: #51 <[I>
+
+	#4: Fieldref
+		class_index: #42 <examples/LongCode>
+		name_and_type_index: #85
+		name_and_type.name_index: #61 <matrix3d>
+		name_and_type.descriptor_index: #62 <[[[I>
+
+	#5: Class
+		name_index: #86 <[D>
+
+	#6: Double
+		High Bytes:   0x405EDD2F
+		Low  Bytes:   0x1A9FBE77
+		Double Value: 1.234560e+02
+
+	#8: Double
+		High Bytes:   0xC0847291
+		Low  Bytes:   0x6872B021
+		Double Value: -6.543210e+02
+
+	#10: Double
+		High Bytes:   0x41CD6F34
+		Low  Bytes:   0x588FCD6F
+		Double Value: 9.876543e+08
+
+	#12: Class
+		name_index: #87 <java/lang/Double>
+
+	#13: Double
+		High Bytes:   0x7FEFFFFF
+		Low  Bytes:   0xFFFFFFFF
+		Double Value: 1.797693e+308
+
+	#15: Double
+		High Bytes:   0x00000000
+		Low  Bytes:   0x00000001
+		Double Value: 4.940656e-324
+
+	#17: Double
+		High Bytes:   0x00100000
+		Low  Bytes:   0x00000000
+		Double Value: 2.225074e-308
+
+	#19: Double
+		High Bytes:   0x7FF80000
+		Low  Bytes:   0x00000000
+		Double Value: nan
+
+	#21: Double
+		High Bytes:   0x7FF00000
+		Low  Bytes:   0x00000000
+		Double Value: inf
+
+	#23: Double
+		High Bytes:   0xFFF00000
+		Low  Bytes:   0x00000000
+		Double Value: -inf
+
+	#25: Fieldref
+		class_index: #42 <examples/LongCode>
+		name_and_type_index: #88
+		name_and_type.name_index: #63 <matrix2d>
+		name_and_type.descriptor_index: #64 <[[D>
+
+	#26: Class
+		name_index: #89 <examples/LongCode$NestedClass>
+
+	#27: Methodref
+		class_index: #26 <examples/LongCode$NestedClass>
+		name_and_type_index: #90
+		name_and_type.name_index: #65 <<init>>
+		name_and_type.descriptor_index: #109 <(Lexamples/LongCode;)V>
+
+	#28: InterfaceMethodref
+		class_index: #48 <examples/LongCode$Test>
+		name_and_type_index: #91
+		name_and_type.name_index: #110 <method1>
+		name_and_type.descriptor_index: #111 <([I)I>
+
+	#29: Fieldref
+		class_index: #42 <examples/LongCode>
+		name_and_type_index: #92
+		name_and_type.name_index: #57 <static_long_member>
+		name_and_type.descriptor_index: #58 <J>
+
+	#30: Float
+		Bytes: 0x41A00000
+		Value: 2.000000e+01
+
+	#31: Class
+		name_index: #93 <java/lang/Error>
+
+	#32: Methodref
+		class_index: #31 <java/lang/Error>
+		name_and_type_index: #83
+		name_and_type.name_index: #65 <<init>>
+		name_and_type.descriptor_index: #66 <()V>
+
+	#33: String
+		string_index: #94
+		String Length: 3
+		ASCII: ola
+
+	#34: Class
+		name_index: #95 <java/lang/String>
+
+	#35: Fieldref
+		class_index: #96 <java/lang/System>
+		name_and_type_index: #97
+		name_and_type.name_index: #113 <out>
+		name_and_type.descriptor_index: #114 <Ljava/io/PrintStream;>
+
+	#36: Methodref
+		class_index: #98 <java/io/PrintStream>
+		name_and_type_index: #99
+		name_and_type.name_index: #116 <println>
+		name_and_type.descriptor_index: #117 <(Ljava/lang/String;)V>
+
+	#37: Class
+		name_index: #100 <[[Ljava/lang/String;>
+
+	#38: Class
+		name_index: #101 <java/lang/ArithmeticException>
+
+	#39: Fieldref
+		class_index: #42 <examples/LongCode>
+		name_and_type_index: #102
+		name_and_type.name_index: #50 <array_member>
+		name_and_type.descriptor_index: #51 <[I>
+
+	#40: Long
+		High Bytes: 0x015EE2A3
+		Low  Bytes: 0x21CE7D15
+		Long Value: 98765432123456789
+
+	#42: Class
+		name_index: #103 <examples/LongCode>
+
+	#43: Class
+		name_index: #104 <java/lang/Object>
+
+	#44: Class
+		name_index: #105 <java/util/EventListener>
+
+	#45: Class
+		name_index: #106 <java/util/RandomAccess>
+
+	#46: Utf8
+		Byte Count: 11
+		Length: 11
+		ASCII Characters: NestedClass
+
+	#47: Utf8
+		Byte Count: 12
+		Length: 12
+		ASCII Characters: InnerClasses
+
+	#48: Class
+		name_index: #107 <examples/LongCode$Test>
+
+	#49: Utf8
+		Byte Count: 4
+		Length: 4
+		ASCII Characters: Test
+
+	#50: Utf8
+		Byte Count: 12
+		Length: 12
+		ASCII Characters: array_member
+
+	#51: Utf8
+		Byte Count: 2
+		Length: 2
+		ASCII Characters: [I
+
+	#52: Utf8
+		Byte Count: 17
+		Length: 17
+		ASCII Characters: deprecated_member
+
+	#53: Utf8
+		Byte Count: 1
+		Length: 1
+		ASCII Characters: F
+
+	#54: Utf8
+		Byte Count: 10
+		Length: 10
+		ASCII Characters: Deprecated
+
+	#55: Utf8
+		Byte Count: 25
+		Length: 25
+		ASCII Characters: RuntimeVisibleAnnotations
+
+	#56: Utf8
+		Byte Count: 22
+		Length: 22
+		ASCII Characters: Ljava/lang/Deprecated;
+
+	#57: Utf8
+		Byte Count: 18
+		Length: 18
+		ASCII Characters: static_long_member
+
+	#58: Utf8
+		Byte Count: 1
+		Length: 1
+		ASCII Characters: J
+
+	#59: Utf8
+		Byte Count: 12
+		Length: 6
+		ASCII Characters: ??????
+		UTF-8 Characters: πφμβƒé
+
+	#60: Utf8
+		Byte Count: 18
+		Length: 18
+		ASCII Characters: Ljava/lang/String;
+
+	#61: Utf8
+		Byte Count: 8
+		Length: 8
+		ASCII Characters: matrix3d
+
+	#62: Utf8
+		Byte Count: 4
+		Length: 4
+		ASCII Characters: [[[I
+
+	#63: Utf8
+		Byte Count: 8
+		Length: 8
+		ASCII Characters: matrix2d
+
+	#64: Utf8
+		Byte Count: 3
+		Length: 3
+		ASCII Characters: [[D
+
+	#65: Utf8
+		Byte Count: 6
+		Length: 6
+		ASCII Characters: <init>
+
+	#66: Utf8
+		Byte Count: 3
+		Length: 3
+		ASCII Characters: ()V
+
+	#67: Utf8
+		Byte Count: 4
+		Length: 4
+		ASCII Characters: Code
+
+	#68: Utf8
+		Byte Count: 15
+		Length: 15
+		ASCII Characters: LineNumberTable
+
+	#69: Utf8
+		Byte Count: 8
+		Length: 8
+		ASCII Characters: mymethod
+
+	#70: Utf8
+		Byte Count: 5
+		Length: 5
+		ASCII Characters: (IJ)V
+
+	#71: Utf8
+		Byte Count: 5
+		Length: 5
+		ASCII Characters: arith
+
+	#72: Utf8
+		Byte Count: 6
+		Length: 6
+		ASCII Characters: (IFB)J
+
+	#73: Utf8
+		Byte Count: 13
+		Length: 13
+		ASCII Characters: StackMapTable
+
+	#74: Utf8
+		Byte Count: 10
+		Length: 10
+		ASCII Characters: Exceptions
+
+	#75: Utf8
+		Byte Count: 4
+		Length: 4
+		ASCII Characters: main
+
+	#76: Utf8
+		Byte Count: 22
+		Length: 22
+		ASCII Characters: ([Ljava/lang/String;)V
+
+	#77: Class
+		name_index: #104 <java/lang/Object>
+
+	#78: Class
+		name_index: #108 <[Ljava/lang/String;>
+
+	#79: Class
+		name_index: #101 <java/lang/ArithmeticException>
+
+	#80: Utf8
+		Byte Count: 8
+		Length: 8
+		ASCII Characters: <clinit>
+
+	#81: Utf8
+		Byte Count: 10
+		Length: 10
+		ASCII Characters: SourceFile
+
+	#82: Utf8
+		Byte Count: 13
+		Length: 13
+		ASCII Characters: LongCode.java
+
+	#83: NameAndType
+		name_index: #65 <<init>>
+		descriptor_index: #66 <()V>
+
+	#84: Utf8
+		Byte Count: 3
+		Length: 3
+		ASCII Characters: [[I
+
+	#85: NameAndType
+		name_index: #61 <matrix3d>
+		descriptor_index: #62 <[[[I>
+
+	#86: Utf8
+		Byte Count: 2
+		Length: 2
+		ASCII Characters: [D
+
+	#87: Utf8
+		Byte Count: 16
+		Length: 16
+		ASCII Characters: java/lang/Double
+
+	#88: NameAndType
+		name_index: #63 <matrix2d>
+		descriptor_index: #64 <[[D>
+
+	#89: Utf8
+		Byte Count: 29
+		Length: 29
+		ASCII Characters: examples/LongCode$NestedClass
+
+	#90: NameAndType
+		name_index: #65 <<init>>
+		descriptor_index: #109 <(Lexamples/LongCode;)V>
+
+	#91: NameAndType
+		name_index: #110 <method1>
+		descriptor_index: #111 <([I)I>
+
+	#92: NameAndType
+		name_index: #57 <static_long_member>
+		descriptor_index: #58 <J>
+
+	#93: Utf8
+		Byte Count: 15
+		Length: 15
+		ASCII Characters: java/lang/Error
+
+	#94: Utf8
+		Byte Count: 3
+		Length: 3
+		ASCII Characters: ola
+
+	#95: Utf8
+		Byte Count: 16
+		Length: 16
+		ASCII Characters: java/lang/String
+
+	#96: Class
+		name_index: #112 <java/lang/System>
+
+	#97: NameAndType
+		name_index: #113 <out>
+		descriptor_index: #114 <Ljava/io/PrintStream;>
+
+	#98: Class
+		name_index: #115 <java/io/PrintStream>
+
+	#99: NameAndType
+		name_index: #116 <println>
+		descriptor_index: #117 <(Ljava/lang/String;)V>
+
+	#100: Utf8
+		Byte Count: 20
+		Length: 20
+		ASCII Characters: [[Ljava/lang/String;
+
+	#101: Utf8
+		Byte Count: 29
+		Length: 29
+		ASCII Characters: java/lang/ArithmeticException
+
+	#102: NameAndType
+		name_index: #50 <array_member>
+		descriptor_index: #51 <[I>
+
+	#103: Utf8
+		Byte Count: 17
+		Length: 17
+		ASCII Characters: examples/LongCode
+
+	#104: Utf8
+		Byte Count: 16
+		Length: 16
+		ASCII Characters: java/lang/Object
+
+	#105: Utf8
+		Byte Count: 23
+		Length: 23
+		ASCII Characters: java/util/EventListener
+
+	#106: Utf8
+		Byte Count: 22
+		Length: 22
+		ASCII Characters: java/util/RandomAccess
+
+	#107: Utf8
+		Byte Count: 22
+		Length: 22
+		ASCII Characters: examples/LongCode$Test
+
+	#108: Utf8
+		Byte Count: 19
+		Length: 19
+		ASCII Characters: [Ljava/lang/String;
+
+	#109: Utf8
+		Byte Count: 22
+		Length: 22
+		ASCII Characters: (Lexamples/LongCode;)V
+
+	#110: Utf8
+		Byte Count: 7
+		Length: 7
+		ASCII Characters: method1
+
+	#111: Utf8
+		Byte Count: 5
+		Length: 5
+		ASCII Characters: ([I)I
+
+	#112: Utf8
+		Byte Count: 16
+		Length: 16
+		ASCII Characters: java/lang/System
+
+	#113: Utf8
+		Byte Count: 3
+		Length: 3
+		ASCII Characters: out
+
+	#114: Utf8
+		Byte Count: 21
+		Length: 21
+		ASCII Characters: Ljava/io/PrintStream;
+
+	#115: Utf8
+		Byte Count: 19
+		Length: 19
+		ASCII Characters: java/io/PrintStream
+
+	#116: Utf8
+		Byte Count: 7
+		Length: 7
+		ASCII Characters: println
+
+	#117: Utf8
+		Byte Count: 21
+		Length: 21
+		ASCII Characters: (Ljava/lang/String;)V
+
+---- Interfaces implemented by the class ----
+
+	Interface #1: #44 <java/util/EventListener>
+	Interface #2: #45 <java/util/RandomAccess>
+
+---- Fields ----
+
+	Field #1:
+
+		name_index:       #50 <array_member>
+		descriptor_index: #51 <[I>
+		access_flags:     0x001A [private, static, final]
+		attributes_count: 0
+
+
+	Field #2:
+
+		name_index:       #52 <deprecated_member>
+		descriptor_index: #53 <F>
+		access_flags:     0x0001 [public]
+		attributes_count: 2
+
+		Field Attribute #1 - Deprecated:
+			This element is marked as deprecated and should no longer be used.
+
+		Field Attribute #2 - RuntimeVisibleAnnotations:
+			Attribute not implemented and ignored.
+
+
+	Field #3:
+
+		name_index:       #57 <static_long_member>
+		descriptor_index: #58 <J>
+		access_flags:     0x0009 [public, static]
+		attributes_count: 0
+
+
+	Field #4:
+
+		name_index:       #59 <??????>
+		descriptor_index: #60 <Ljava/lang/String;>
+		access_flags:     0x0002 [private]
+		attributes_count: 0
+
+
+	Field #5:
+
+		name_index:       #61 <matrix3d>
+		descriptor_index: #62 <[[[I>
+		access_flags:     0x0002 [private]
+		attributes_count: 0
+
+
+	Field #6:
+
+		name_index:       #63 <matrix2d>
+		descriptor_index: #64 <[[D>
+		access_flags:     0x0001 [public]
+		attributes_count: 0
+
+
+---- Methods ----
+
+	Method #1:
+
+		name_index:        #65 <<init>>
+		descriptor_index:  #66 <()V>
+		access_flags:      0x0001 [public]
+		attribute_count:   1
+
+		Method Attribute #1 - Code:
+
+			max_stack: 11, max_locals: 1, code_length: 166
+			exception_table_length: 0, attribute_count: 1
+
+			Code:	Offset	Mnemonic	Parameters
+				0	aload_0
+				1	invokespecial	#1 (Method java/lang/Object.<init>, descriptor: ()V)
+				4	aload_0
+				5	iconst_2
+				6	anewarray	#2 (class: [[I)
+				9	dup
+				10	iconst_0
+				11	iconst_2
+				12	anewarray	#3 (class: [I)
+				15	dup
+				16	iconst_0
+				17	iconst_2
+				18	newarray	10 (array of int)
+				20	dup
+				21	iconst_0
+				22	iconst_1
+				23	iastore
+				24	dup
+				25	iconst_1
+				26	iconst_2
+				27	iastore
+				28	aastore
+				29	dup
+				30	iconst_1
+				31	iconst_2
+				32	newarray	10 (array of int)
+				34	dup
+				35	iconst_0
+				36	iconst_3
+				37	iastore
+				38	dup
+				39	iconst_1
+				40	iconst_4
+				41	iastore
+				42	aastore
+				43	aastore
+				44	dup
+				45	iconst_1
+				46	iconst_2
+				47	anewarray	#3 (class: [I)
+				50	dup
+				51	iconst_0
+				52	iconst_2
+				53	newarray	10 (array of int)
+				55	dup
+				56	iconst_0
+				57	iconst_5
+				58	iastore
+				59	dup
+				60	iconst_1
+				61	bipush		6
+				63	iastore
+				64	aastore
+				65	dup
+				66	iconst_1
+				67	iconst_2
+				68	newarray	10 (array of int)
+				70	dup
+				71	iconst_0
+				72	bipush		7
+				74	iastore
+				75	dup
+				76	iconst_1
+				77	bipush		8
+				79	iastore
+				80	aastore
+				81	aastore
+				82	putfield	#4 (Field examples/LongCode.matrix3d, descriptor: [[[I)
+				85	aload_0
+				86	iconst_3
+				87	anewarray	#5 (class: [D)
+				90	dup
+				91	iconst_0
+				92	iconst_3
+				93	newarray	7 (array of double)
+				95	dup
+				96	iconst_0
+				97	ldc2_w		#6 (double: 1.234560e+02)
+				100	dastore
+				101	dup
+				102	iconst_1
+				103	ldc2_w		#8 (double: -6.543210e+02)
+				106	dastore
+				107	dup
+				108	iconst_2
+				109	ldc2_w		#10 (double: 9.876543e+08)
+				112	dastore
+				113	aastore
+				114	dup
+				115	iconst_1
+				116	iconst_3
+				117	newarray	7 (array of double)
+				119	dup
+				120	iconst_0
+				121	ldc2_w		#13 (double: 1.797693e+308)
+				124	dastore
+				125	dup
+				126	iconst_1
+				127	ldc2_w		#15 (double: 4.940656e-324)
+				130	dastore
+				131	dup
+				132	iconst_2
+				133	ldc2_w		#17 (double: 2.225074e-308)
+				136	dastore
+				137	aastore
+				138	dup
+				139	iconst_2
+				140	iconst_3
+				141	newarray	7 (array of double)
+				143	dup
+				144	iconst_0
+				145	ldc2_w		#19 (double: nan)
+				148	dastore
+				149	dup
+				150	iconst_1
+				151	ldc2_w		#21 (double: inf)
+				154	dastore
+				155	dup
+				156	iconst_2
+				157	ldc2_w		#23 (double: -inf)
+				160	dastore
+				161	aastore
+				162	putfield	#25 (Field examples/LongCode.matrix2d, descriptor: [[D)
+				165	return
+
+			Code Attribute #1 - LineNumberTable:
+
+				line_number_table_length: 4
+
+				Table:	Index	line_number	start_pc
+					1	6		0
+					2	14		4
+					3	21		85
+					4	31		165
+
+
+	Method #2:
+
+		name_index:        #69 <mymethod>
+		descriptor_index:  #70 <(IJ)V>
+		access_flags:      0x0001 [public]
+		attribute_count:   1
+
+		Method Attribute #1 - Code:
+
+			max_stack: 4, max_locals: 6, code_length: 35
+			exception_table_length: 0, attribute_count: 1
+
+			Code:	Offset	Mnemonic	Parameters
+				0	iconst_2
+				1	newarray	10 (array of int)
+				3	astore		4
+				5	new		#26 (class: examples/LongCode$NestedClass)
+				8	dup
+				9	aload_0
+				10	invokespecial	#27 (Method examples/LongCode$NestedClass.<init>, descriptor: (Lexamples/LongCode;)V)
+				13	astore		5
+				15	aload		4
+				17	iconst_0
+				18	aload		5
+				20	aload		4
+				22	invokeinterface	#28, count: 2 (InterfaceMethod examples/LongCode$Test.method1, descriptor: ([I)I)
+				27	iastore
+				28	lload_2
+				29	getstatic	#29 (Field examples/LongCode.static_long_member, descriptor: J)
+				32	ladd
+				33	lstore_2
+				34	return
+
+			Code Attribute #1 - LineNumberTable:
+
+				line_number_table_length: 5
+
+				Table:	Index	line_number	start_pc
+					1	38		0
+					2	39		5
+					3	41		15
+					4	42		28
+					5	43		34
+
+
+	Method #3:
+
+		name_index:        #71 <arith>
+		descriptor_index:  #72 <(IFB)J>
+		access_flags:      0x0001 [public]
+		attribute_count:   2
+
+		Method Attribute #1 - Code:
+
+			max_stack: 2, max_locals: 4, code_length: 123
+			exception_table_length: 0, attribute_count: 2
+
+			Code:	Offset	Mnemonic	Parameters
+				0	iload_1
+				1	lookupswitch	npairs = 2
+				11	  case 10: pc + 27 = address 28
+				19	  case 30: pc + 35 = address 36
+				-	  default: pc + 43 = address 44
+				28	fload_2
+				29	ldc		#30 (float: 2.000000e+01)
+				31	fadd
+				32	fstore_2
+				33	goto		pc + 11 = address 44
+				36	fload_2
+				37	ldc		#30 (float: 2.000000e+01)
+				39	fsub
+				40	fstore_2
+				41	goto		pc + 3 = address 44
+				44	iload_3
+				45	tableswitch	low = 2, high = 5
+				59	  case 2: pc + 31 = address 76
+				63	  case 3: pc + 40 = address 85
+				67	  case 4: pc + 49 = address 94
+				71	  case 5: pc + 58 = address 103
+				-	  default: pc + 67 = address 112
+				76	iload_1
+				77	i2f
+				78	fload_2
+				79	fadd
+				80	f2i
+				81	istore_1
+				82	goto		pc + 38 = address 120
+				85	iload_1
+				86	i2f
+				87	fload_2
+				88	fsub
+				89	f2i
+				90	istore_1
+				91	goto		pc + 29 = address 120
+				94	iload_1
+				95	i2f
+				96	fload_2
+				97	fmul
+				98	f2i
+				99	istore_1
+				100	goto		pc + 20 = address 120
+				103	iload_1
+				104	i2f
+				105	fload_2
+				106	fdiv
+				107	f2i
+				108	istore_1
+				109	goto		pc + 11 = address 120
+				112	new		#31 (class: java/lang/Error)
+				115	dup
+				116	invokespecial	#32 (Method java/lang/Error.<init>, descriptor: ()V)
+				119	athrow
+				120	iload_1
+				121	i2l
+				122	lreturn
+
+			Code Attribute #1 - LineNumberTable:
+
+				line_number_table_length: 10
+
+				Table:	Index	line_number	start_pc
+					1	47		0
+					2	48		28
+					3	49		36
+					4	54		44
+					5	55		76
+					6	56		85
+					7	57		94
+					8	58		103
+					9	60		112
+					10	63		120
+
+			Code Attribute #2 - StackMapTable:
+				Attribute not implemented and ignored.
+
+
+		Method Attribute #2 - Exceptions:
+
+			number_of_exceptions: 1
+
+				Exception #1: #31 <java/lang/Error>
+
+
+	Method #4:
+
+		name_index:        #75 <main>
+		descriptor_index:  #76 <([Ljava/lang/String;)V>
+		access_flags:      0x0009 [public, static]
+		attribute_count:   1
+
+		Method Attribute #1 - Code:
+
+			max_stack: 2, max_locals: 6, code_length: 41
+			exception_table_length: 1, attribute_count: 2
+
+			Code:	Offset	Mnemonic	Parameters
+				0	ldc		#33 (string: ola)
+				2	astore_1
+				3	aload_1
+				4	instanceof	#34 (class: java/lang/String)
+				7	ifeq		pc + 13 = address 20
+				10	getstatic	#35 (Field java/lang/System.out, descriptor: Ljava/io/PrintStream;)
+				13	aload_1
+				14	checkcast	#34 (class: java/lang/String)
+				17	invokevirtual	#36 (Method java/io/PrintStream.println, descriptor: (Ljava/lang/String;)V)
+				20	iconst_2
+				21	iconst_2
+				22	multianewarray	#37, dimension 2 (class: [[Ljava/lang/String;)
+				26	astore_2
+				27	iconst_0
+				28	istore_3
+				29	bipush		62
+				31	iload_3
+				32	idiv
+				33	istore		4
+				35	goto		pc + 5 = address 40
+				38	astore		5
+				40	return
+
+			Exception Table:
+			Index	start_pc	end_pc	handler_pc	catch_type
+			1	27		35	38		38 <java/lang/ArithmeticException>
+
+			Code Attribute #1 - LineNumberTable:
+
+				line_number_table_length: 9
+
+				Table:	Index	line_number	start_pc
+					1	67		0
+					2	69		3
+					3	70		10
+					4	73		20
+					5	77		27
+					6	78		29
+					7	80		35
+					8	79		38
+					9	81		40
+
+			Code Attribute #2 - StackMapTable:
+				Attribute not implemented and ignored.
+
+
+	Method #5:
+
+		name_index:        #80 <<clinit>>
+		descriptor_index:  #66 <()V>
+		access_flags:      0x0008 [static]
+		attribute_count:   1
+
+		Method Attribute #1 - Code:
+
+			max_stack: 4, max_locals: 0, code_length: 25
+			exception_table_length: 0, attribute_count: 1
+
+			Code:	Offset	Mnemonic	Parameters
+				0	iconst_3
+				1	newarray	10 (array of int)
+				3	dup
+				4	iconst_0
+				5	iconst_1
+				6	iastore
+				7	dup
+				8	iconst_1
+				9	iconst_2
+				10	iastore
+				11	dup
+				12	iconst_2
+				13	iconst_3
+				14	iastore
+				15	putstatic	#39 (Field examples/LongCode.array_member, descriptor: [I)
+				18	ldc2_w		#40 (long: 98765432123456789)
+				21	putstatic	#29 (Field examples/LongCode.static_long_member, descriptor: J)
+				24	return
+
+			Code Attribute #1 - LineNumberTable:
+
+				line_number_table_length: 2
+
+				Table:	Index	line_number	start_pc
+					1	8		0
+					2	11		18
+
+
+---- Class Attributes ----
+
+	Attribute #1 - SourceFile:
+
+		sourcefile_index: #82 <LongCode.java>
+
+
+	Attribute #2 - InnerClasses:
+
+		number_of_classes: 2
+
+		Inner Class #1:
+
+			inner_class_info_index:   #26 <examples/LongCode$NestedClass>
+			outer_class_info_index:   #42 <examples/LongCode>
+			inner_name_index:         #46 <NestedClass>
+			inner_class_access_flags: 0x0000 [no flags]
+
+		Inner Class #2:
+
+			inner_class_info_index:   #48 <examples/LongCode$Test>
+			outer_class_info_index:   #42 <examples/LongCode>
+			inner_name_index:         #49 <Test>
+			inner_class_access_flags: 0x0608 [abstract, static, interface]

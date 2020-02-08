@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['decode_5faccess_5fflags_804',['decode_access_flags',['../javaclass_8c.html#a61afa06ebda8e0f9a4f06c7224bd6910',1,'decode_access_flags(uint16_t flags, char *buffer, int32_t buffer_len, enum access_flags_types acctype):&#160;javaclass.c'],['../javaclass_8h.html#abf4dc4d5c6169f9880b1e34daf2f9244',1,'decode_access_flags(uint16_t, char *, int32_t, enum access_flags_types):&#160;javaclass.c']]],
+  ['decode_5fjava_5fclass_5fstatus_805',['decode_java_class_status',['../javaclass_8c.html#a5bc34031a78ae328f1c1f2c030a597c7',1,'decode_java_class_status(enum java_class_status status):&#160;javaclass.c'],['../javaclass_8h.html#a419d248a3824f3e5213ccb642410d8e6',1,'decode_java_class_status(enum java_class_status):&#160;javaclass.c']]],
+  ['decode_5fopcode_5fnewarraytype_806',['decode_opcode_newarraytype',['../opcodes_8c.html#a6e4aaabb7b0adc9ecb8f68f43f6b785b',1,'decode_opcode_newarraytype(uint8_t type):&#160;opcodes.c'],['../opcodes_8h.html#a5cfd8f5b7cf058ae71dda779689a4932',1,'decode_opcode_newarraytype(uint8_t):&#160;opcodes.c']]],
+  ['deinitialize_5fvirtual_5fmachine_807',['deinitialize_virtual_machine',['../jvm_8c.html#aaf495e7828abfd963d30febc4836e719',1,'deinitialize_virtual_machine(interpreter_module *virtual_machine):&#160;jvm.c'],['../jvm_8h.html#a689dc565112335fad653ed7b69de527e',1,'deinitialize_virtual_machine(interpreter_module *):&#160;jvm.c']]],
+  ['delete_5freference_808',['delete_reference',['../jvm_8c.html#a5ff9bb435c3240b5028102367581af25',1,'delete_reference(reference *obj):&#160;jvm.c'],['../jvm_8h.html#a5ff9bb435c3240b5028102367581af25',1,'delete_reference(reference *obj):&#160;jvm.c']]]
+];

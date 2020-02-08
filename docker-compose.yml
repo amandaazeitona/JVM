@@ -1,0 +1,6 @@
+version: '2'
+services:
+  gcc32bits-builder:
+    image: "gcc32bits:latest"
+    volumes:
+      - .:/code
